@@ -68,6 +68,7 @@ body {
 div#headerContainer {
   width: 100%;
   background: #033048;
+  position: fixed;
 }
 
 div#headerContainer > header {
@@ -147,7 +148,7 @@ h2 {
 div.bodyContainer {
   width: 960px;
   background: #f0efef;
-  padding: 30px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   margin: 0px auto;
 }
 
