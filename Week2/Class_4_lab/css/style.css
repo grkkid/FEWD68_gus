@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr
+Client: General Assempbly
+Author: Konstandinos (Gus) Maroulis
 Developer @GA in NYC
 */
 
@@ -49,7 +49,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     background: #f0efef;
+     font-family: 'Open Sans', helvetica, arial, sans-serif;
+    
 }
 
 
@@ -59,16 +61,304 @@ body {
 
 /* Center the container */
 #container {
+  width: 100%;
+  background:#f0efef;
+}
+
+div#headerContainer {
+  width: 100%;
+  background: #033048;
+}
+
+div#headerContainer > header {
   width: 960px;
-  margin: auto;
+  margin: 0px auto;
+  height: 50px;
+  box-sizing: border-box;
+
 }
 
-header {
+div#headerContainer header > h1 {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 10px;
+}
+
+div#headerContainer header nav {
+  float: right;
+  vertical-align: baseline;
+}
+
+div#headerContainer header nav > ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+}
+
+div#headerContainer header nav ul > li {
+  display: inline;
+  padding-right: 15px;
+}
+
+div#headerContainer header nav ul > li:last-child {
+  padding-right: 0px;
+}
+
+div#headerContainer header nav ul li > a {
+  font-weight: 600;
+  color: #f9e42e;
+  text-decoration: none;
+}
+
+
+
+h1, h2, h3 {
+    font-size: 2em; /* 2x base size of 12px = 24px */
+}
+
+h1 {
+
+  font-weight: 800;
+  color: #f0efef;
+  /* fix text-shadow */
+  text-shadow: -1px rgba(255,249,255, .3), 1px rgba(255,249,255, .3), 1px rgba(255,249,255, .3), -1px rgba(255,249,255, .3);
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #f0efef;
+  margin-top: 75px;
+}
+
+.relaxrBtn {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 1.167em;
+  color: #033048;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px auto;
+}
+
+div.bodyContainer {
+  width: 960px;
+  background: #f0efef;
+  padding: 30px 0px 0px 0px;
+  margin: 0px auto;
+}
+
+section.post {
+
+  width: 700px;
+  display: inline-block;
+  vertical-align: baseline;
 
 }
 
-footer {
+section.post > article {
+    border-bottom: 1px solid #033048;
+    box-sizing: border-box;
+   font-family: 'Open Sans', arial, sans-serif;
+     margin-bottom: 15px;
+}
 
+section.post > article > header {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+section.post > article p {
+  color: #606161;
+  font-size: 2em;
+}
+
+span.firstCharacter {
+  float: left;  
+  font-size: 60px; 
+
+  padding: 0px 8px 0px 0px;
+  font-weight: 800;
+    line-height: 60px; 
+
+}
+
+section.post > article > img {
+  margin-bottom: 10px;
+}
+
+section.post > article h3 {
+  font-size: 1.667em;
+  color: #033048;
+  font-weight: 600;
+}
+
+section.post > article p {
+  font-weight: 300;
+  font-size: 1.083em;
+}
+
+section.post > article footer {
+  text-align: right;
+  padding: 30px 0px 15px 0px;
+}
+
+section.post > article footer a {
+  text-decoration: none; 
+  font-size: 2em;
+  font-weight: 600;
+  color: #033048;
+}
+
+section.sideBar {
+  width: 240px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 0px 0px 20px;
+}
+
+section.sideBar h2 {
+   color: #033048;
+  text-align: left;
+  margin-top: 0px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+section.sideBar section {
+    margin-bottom: 20px;
+}
+
+section.sideBar section > p {
+  font-weight: 300;
+  font-size: 22px; 
+}
+
+section.sideBar section > p > a {
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+section#categories ul {
+  list-style-type: none;
+  padding-top: 10px 0px 0px 0px;
+}
+section#categories ul li {
+  padding-left: 5px;
+}
+
+section#categories ul li:last-child {
+}
+
+section#categories ul li > a {
+  color: #033048;
+  font-weight: 300;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+div.testimonialContainer {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  width: 100%;
+}
+
+section.testimonials {
+  width: 960px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+section.testimonials > h4 {
+  padding: 30px;
+}
+section.testimonials h4 em {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: #f0efef;
+}
+
+span.person {
+  font-weight: 600;
+  font-size: 18px;
+  color: #f0efef;  
+}
+
+div.signUpContainer {
+  background: #f9e42e;
+  width: 100%;
+  padding: 30px;
+    margin-top: 30px;
+
+}
+
+footer#main {
+  background: #121212;
+  padding: 30px;
+  width: 100%;
+}
+
+footer#main > h5 {
+  color: #f9e42e;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+section.social {
+  width: 100px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 30px 0px ;
+}
+
+section.social a {
+  border: 0px;
+  display: inline-block;
+  margin-right: 10px;
+      overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+}
+
+section.social > a.twitter {
+      width: 43px;
+    height: 33px;
+  background: url('../images/twitter.png') no-repeat left top;
+}
+
+section.social > a.facebook {
+      width: 17px;
+    height: 37px;
+  background: url('../images/facebook.png') no-repeat left top;
+}
+
+footer > h6 {
+  color: #f0efef;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.yellow {
+    background: #f9e42e;
+    color: #033048;
+}
+
+.blue {
+  background: #033048;
+  color: #f0efef;
 }
 
 /******************************************
