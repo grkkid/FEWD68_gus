@@ -1,0 +1,218 @@
+html, body {
+    font-family: 'Open Sans', sans-serif, arial;
+    font-family: 'Tienne';
+    font-size: 16px;
+    margin: 0px;
+}
+
+div#bodyContainer {
+    width: 100%;
+    background: #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+header.mainHeader {
+    background: #000;
+}
+
+.goldBottomBorder {
+    border-bottom: 5px solid #ffd700;
+}
+
+div#headerContainer {
+    width: 960px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 0px;
+}
+
+div#headerContainer > section.logo {
+    color: #ffd700;
+    font-family: 'Tienne', serif, 'times new roman';
+    font-size: 1.5em;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding: 15px 0px 0px 0px;
+}
+
+div#headerContainer > nav {
+    float: right;
+}
+
+div#headerContainer > nav > ul {
+    list-style-type: none;
+}
+
+div#headerContainer > nav > ul li {
+    font-family: 'Open Sans';
+    font-size: 1em;
+    color: #fff;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+div#headerContainer > nav > ul li:last-child {
+    padding-right: 0px;
+}
+
+div#headerContainer > nav > ul li > a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+    border-bottom: 1px solid rgba(255,0,0, 0);
+}
+
+div#headerContainer > nav > ul li > a:hover {
+    border-bottom: 1px solid rgba(255,0,0, 1);
+}
+div#headerContainer > nav > ul li > a.strong {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.grayBg {
+    background: #c0c0c0;
+}
+
+section#motto {
+    width: 960px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+section#motto > em {
+    font-size: 1.25em;
+    font-family: 'Tienne';
+    color: #000;
+    font-weight: 900;
+    font-style: italic;
+}
+
+section#motto > em del {
+    color: #a0a0a0;
+}
+
+section#motto > em ins {
+    text-decoration: none;
+    border-bottom: 2px solid #ffd700;
+}
+
+.mainImage {
+    background: #fff url('../images/coworking.jpg') no-repeat center center;
+    background-size: cover;
+    height: 450px;
+}
+
+div#createContainer {
+    width: 960px;
+    margin: 0px auto;
+}
+section.createProfile {
+    background: rgba(255, 255, 255, .6);
+    border: 1px solid #606060;
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+    padding: 30px 20px;
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Open Sans';
+    text-align: left;
+}
+
+section.createProfile > h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+section.createProfile > p {
+    padding-top: 15px;
+    line-height: 1.5em;
+    font-size: .9em;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+
+a.btn {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    color: #000;
+    padding: 20px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    margin: 15px 0px 15px 0px;
+    border-radius: 7px;
+    border-bottom: 3px solid rgba(20, 20, 20, .05);
+    text-decoration: none;
+    text-align: center;
+    transition: all 1s;
+}
+
+a.btn:hover {
+        border-bottom: 3px solid rgba(255, 0, 0, 1);
+}
+
+.yellowBg {
+        background: #FFd700;
+}
+
+div#optionsContainer {
+    width: 960px;
+    background: #fff;
+    padding: 15px 0px 15px 0px;
+    color: #000;
+    margin: 0px auto;
+}
+
+div#optionsContainer > section {
+    width: 33%;
+    display: inline-block;
+    border-right: 1px solid #c0c0c0;
+    box-sizing: border-box;
+    padding: 15px 25px 15px 25px;
+    vertical-align: top;
+}
+
+div#optionsContainer > section:last-child {
+    border-right: 0px;
+}
+
+div#optionsContainer section > header {
+    font-weight: 900;
+    font-family: 'Tienne';
+    font-size: 2em;
+}
+
+div#optionsContainer section > p {
+    padding-top: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Open Sans';
+}
+
+footer {
+    width: 960px;
+    margin: 0px auto;
+    color: #FFF;
+    box-sizing: border-box;
+    padding: 30px; 
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 1em;
+    text-align: left;
+}
+
+.blackBg {
+    background: #000;
+}
+
+
+
